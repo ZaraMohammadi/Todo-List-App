@@ -23,12 +23,12 @@ const Navbar = ({ handleShowModal, handleSearchItem,handleIsOpenSidebar,isOpenSi
             type="text"
             placeholder="search..."
             onChange={onChange}
-            className="md:w-80 lg:mr-96  w-2/3 shadow-lg p-1 outline-none border border-gray-200 rounded-lg rounded-l-none"
+            className="sm:w-80 lg:mr-96  w-2/5 shadow-lg p-1 outline-none border border-gray-200 rounded-lg rounded-l-none"
 
           />
           </div>
 
-          <div className="flex items-center me-10 text-2xl text-violet-900 font-bold "><img className="w-16 " src="src\assets\logo\logo.png" alt="" /> <span>TO DO LIST</span></div>
+          <div className="flex items-center md:me-10 md:text-2xl text-lg text-violet-900 font-bold "><img className="w-16 " src="src\assets\logo\logo.png" alt="" /> <span>TO DO LIST</span></div>
           
         </div>
         
