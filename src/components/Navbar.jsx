@@ -1,3 +1,4 @@
+import logo from '../assets/logo/logo.png'
 const Navbar = ({ handleShowModal, handleSearchItem,handleIsOpenSidebar,isOpenSidebar }) => {
   const onChange = (e) => {
     handleSearchItem(e.target.value);
@@ -28,7 +29,7 @@ const Navbar = ({ handleShowModal, handleSearchItem,handleIsOpenSidebar,isOpenSi
           />
           </div>
 
-          <div className="flex items-center md:me-10 md:text-2xl text-lg text-violet-900 font-bold "><img className="w-16 " src="src\assets\logo\logo.png" alt="" /> <span>TO DO LIST</span></div>
+          <div className="flex items-center md:me-10 md:text-2xl text-lg text-violet-900 font-bold "><img className="w-16 " src={logo} alt="" /> <span>TO DO LIST</span></div>
           
         </div>
         
