@@ -44,7 +44,7 @@ const Todo = () => {
   const [todos, setTodos] = useState([]);
   
   useEffect(() => {
-    const savedTodos =JSON.parse( localStorage.getItem("todos"));
+    const savedTodos =JSON.parse( localStorage.getItem("todos")) || [];
     if (savedTodos.length>0) {
       setTodos( savedTodos);
     } else{
